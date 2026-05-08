@@ -5,6 +5,7 @@
 
     // for zeptojs;
     $.isNumeric == null && ($.isNumeric = function(src) {
+        console.log("test");
         return src != null && src.constructor === Number;
     });
 
