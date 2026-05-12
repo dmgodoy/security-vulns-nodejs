@@ -552,6 +552,7 @@
 
         },
         setWallSize: function(runtime, container) {
+            console.log("testtest");
             var totalRow = runtime.totalRow;
             var totalCol = runtime.totalCol;
             var gutterY = runtime.gutterY;
