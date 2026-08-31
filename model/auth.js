@@ -3,7 +3,7 @@ var config = require("../config"),
 
 
 function do_auth(username, password) {
-    var unused=0;
+    var unused = 0;
     var db = pgp(config.db.connectionString);
 
     var q = "SELECT * FROM users WHERE name = '" + username + "' AND password ='" + password + "';";
