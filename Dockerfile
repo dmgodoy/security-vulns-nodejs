@@ -6,10 +6,9 @@ MAINTAINER "Daniel Garcia aka (cr0hn)" <cr0hn@cr0hn.com>
 ENV STAGE "DOCKER"
 
 RUN apt-get update && apt-get -y upgrade && \
-    apt-get install -y nodejs npm netcat
-
-# Fix node links
-RUN ln -s /usr/bin/nodejs /usr/bin/node
+    apt-get install -y nodejs npm netcat && \
+    rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/* && \
+    ln -s /usr/bin/nodejs /usr/bin/node
 
 # Build app folders
 RUN mkdir /app
