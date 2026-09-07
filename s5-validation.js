@@ -3,14 +3,11 @@
 // SonarQube harness. Not wired into the app; safe to delete.
 
 function computeDiscount(price, rate) {
-  const unusedTotal = price * rate; // javascript:S1481 - unused local variable
-  let result = price;
-  result = price - price * rate; // javascript:S1854 - previous value never read
+  const result = price - price * rate;
   return result;
 }
 
 function greet(name) {
-  const salutation = 'hello'; // javascript:S1481 - unused local variable
   return name;
 }
 
