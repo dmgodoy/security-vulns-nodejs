@@ -8,7 +8,6 @@
 // authors (ReviewerSuggestionService#suggestReviewers -> listRecentCommitAuthors). This simulates the
 // AC's "Agent generated the code / person is not part of the organization anymore" condition.
 function computeDiscount(price, quantity) {
-  const unusedTaxRate = 0.21; // S1481: unused local variable — the issue the agent will remediate
   return price * quantity;
 }
 
