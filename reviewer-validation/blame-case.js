@@ -6,7 +6,6 @@
 // the `dmgodoy` login, so reviewer scoring picks the line owner directly and never reaches the
 // commit-history fallback. Contrast with fallback-case.js.
 function computeTotal(items) {
-  const unusedCurrency = 'EUR'; // S1481: unused local variable — the issue the agent will remediate
   let total = 0;
   for (const item of items) {
     total += item.price;
