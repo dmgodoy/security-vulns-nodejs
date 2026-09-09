@@ -7,7 +7,6 @@
 // on a branch on top of the PR and assigns the SOURCE PR's author (dmgodoy) as reviewer via
 // PullRequestServiceImpl#findSourcePullRequestAuthor, independent of git-blame.
 function applyShipping(subtotal, region) {
-  const unusedFreeThreshold = 100; // S1481: unused local variable — the issue the agent will remediate
   return region === 'domestic' ? subtotal + 5 : subtotal + 15;
 }
 
