@@ -235,10 +235,10 @@
                 // for hidden block;
                 if (!block) {
                     //var position = $item.position(); <= make speed so slow;
-                    var height = parseInt(item.style.height) || 0;
-                    var width = parseInt(item.style.width) || 0;
-                    var left = parseInt(item.style.left) || 0;
-                    var top = parseInt(item.style.top) || 0;
+                    var height = Number.parseInt(item.style.height) || 0;
+                    var width = Number.parseInt(item.style.width) || 0;
+                    var left = Number.parseInt(item.style.left) || 0;
+                    var top = Number.parseInt(item.style.top) || 0;
                     $item[method]({
                         left: left + width / 2,
                         top: top + height / 2,
