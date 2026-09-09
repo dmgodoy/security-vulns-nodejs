@@ -29,7 +29,7 @@ router.post('/login/auth', function(req, res) {
             req.session.logged = true;
             req.session.user_name = user;
 
-            if (returnurl == undefined || returnurl == ""){
+            if (returnurl == undefined || returnurl == "" || !returnurl.startsWith("/") || returnurl.startsWith("//")){
                 returnurl = "/";
             }
 
