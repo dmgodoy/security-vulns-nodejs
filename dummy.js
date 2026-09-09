@@ -17,19 +17,19 @@ var dummy_info = {
     {
       "name": "My public privacy",
       "description": "Grant privacy in public to watch your favorite programs",
-      "price": parseInt(Math.random() * 100),
+      "price": Number.parseInt(Math.random() * 100),
       "image": "product_1.jpg"
     },
     {
       "name": "The USB rocket",
       "description": "Be happy with your USB rocket. Functionality: none. Usability: none. The best choice!",
-      "price": parseInt(Math.random() * 100),
+      "price": Number.parseInt(Math.random() * 100),
       "image": "product_2.jpg"
     },
     {
       "name": "Walker watermelons",
       "description": "Take a walk your watermelons and make it feel comfortable.",
-      "price": parseInt(Math.random() * 100),
+      "price": Number.parseInt(Math.random() * 100),
       "image": "product_3.jpg"
     },
     {
@@ -47,19 +47,19 @@ var dummy_info = {
     {
       "name": "Daddle",
       "description": "Be the best father with Daddle: dad's saddle for horsing around.",
-      "price": parseInt(Math.random() * 100),
+      "price": Number.parseInt(Math.random() * 100),
       "image": "product_6.jpg"
     },
     {
       "name": "HD Vision",
       "description": "Reality is not enough for you? Improve your live with the HD vision glasses.",
-      "price": parseInt(Math.random() * 100),
+      "price": Number.parseInt(Math.random() * 100),
       "image": "product_7.jpg"
     },
     {
       "name": "Hangs free",
       "description": "Say goodbye to the cumbersome cables with the authentic hands free.",
-      "price": parseInt(Math.random() * 100),
+      "price": Number.parseInt(Math.random() * 100),
       "image": "product_8.jpg"
     }
   ]
