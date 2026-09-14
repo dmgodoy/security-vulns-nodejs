@@ -8,7 +8,6 @@
 // at request time, so assignFirstConfirmedReviewer logs "not confirmed by the platform, trying next
 // candidate" and moves on. With no other candidate here, the run completes with no reviewer.
 function computeTax(amount, rate) {
-  const unusedRoundingMode = 'HALF_UP'; // S1481: unused local variable — the issue the agent will remediate
   return amount * rate;
 }
 
