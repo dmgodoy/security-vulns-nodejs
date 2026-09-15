@@ -23,7 +23,7 @@ var dummy_info = {
     {
       "name": "The USB rocket",
       "description": "Be happy with your USB rocket. Functionality: none. Usability: none. The best choice!",
-      "price": parseInt(Math.random() * 100),
+      "price": 42,
       "image": "product_2.jpg"
     },
     {
